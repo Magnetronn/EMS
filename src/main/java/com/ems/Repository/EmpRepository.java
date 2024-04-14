@@ -9,6 +9,8 @@ import com.ems.entity.Employee;
 public interface EmpRepository extends JpaRepository<Employee, Integer>{
 
 	Employee findByEmpId(int id);
+
+	//Kya haal chaal
 	 
 
 }
